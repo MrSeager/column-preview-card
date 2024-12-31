@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif !important;
+    background-color: hsl(0, 0%, 95%) !important;
+}
+
+.cs-w {
+    width: 950px !important;
+}
+
+/*Backgrounds*/
+.cs-bg-orange {
+    background-color: hsl(31, 77%, 52%) !important;
+}
+
+.cs-bg-dark-cyan {
+    background-color: hsl(184, 100%, 22%) !important;
+}
+
+.cs-bg-darker-cyan {
+    background-color: hsl(179, 100%, 13%) !important;
+}
+
+.cs-bg-white {
+    background-color: hsl(0, 0%, 95%) !important;
+}
+
+/*Fonts*/
+.cs-ff-bsd {
+    font-family: 'Big Shoulders Display', sans-serif !important;
+}
+
+.cs-fc-white {
+    color: hsla(0, 0%, 100%, 0.75) !important;
+}
+
+.cs-tc-orange {
+    color: hsl(31, 77%, 52%) !important;
+}
+
+.cs-tc-dark-cyan {
+    color: hsl(184, 100%, 22%) !important;
+}
+
+.cs-tc-darker-cyan {
+    color: hsl(179, 100%, 13%) !important;
+}
+
+/*Buttons*/
+.cs-btn {
+    border-color: hsl(0, 0%, 95%) !important;
+}
+
+.cs-btn:hover {
+    background-color: transparent !important;
+    color: hsl(0, 0%, 95%) !important;
+}
+
+@media (max-width: 921px) {
+    .cs-w {
+        width: 95% !important;
+    }
+}
