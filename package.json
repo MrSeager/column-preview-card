@@ -2,6 +2,7 @@
   "name": "column-preview-card",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MrSeager.github.io/column-preview-card",
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -12,6 +13,7 @@
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
@@ -23,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject", 
+	"predeploy": "yarn build", 
+	"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
